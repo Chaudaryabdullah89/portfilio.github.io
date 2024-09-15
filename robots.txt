@@ -1,0 +1,29 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /account/
+Disallow: /login/
+Disallow: /register/
+Disallow: /search/
+Disallow: /wp-login.php
+Disallow: /wp-admin/
+Disallow: /tmp/
+Disallow: /private/
+
+Allow: /public-info/
+Allow: /products/
+Allow: /services/
+Allow: /blog/
+Allow: /contact/
+Allow: /about-us/
+
+User-agent: *
+Disallow: /*?sessionid=
+Disallow: /*?ref=
+Disallow: /*?s=
+
+User-agent: BadBot
+Disallow: /
+
+Sitemap: https://www.retrosmart.co.uk/sitemap.xml
