@@ -1,0 +1,115 @@
+.container-of-form{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* max-width: 1300px; */
+    gap: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.col{
+    display: flex;
+}
+.info-con{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.inputss{
+    width: 800px;
+}
+.inputss form textarea{
+    width: 800px;
+    padding: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(189, 188, 188);
+}
+.for-flexing{
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+.for-flexing input{
+    width: 400px;
+    padding: 12px;
+    border-radius: 5px;
+
+    outline: none;
+    border: 1px solid rgb(189, 188, 188);
+
+}
+textarea::placeholder, input::placeholder{
+    color: rgb(196, 196, 196);
+    
+}
+.hasel{
+    padding-top: 20px;
+}
+.hasel input{
+    width: 800px;
+    padding: 12px;
+    border-radius: 5px;
+
+    outline: none;
+    border: 1px solid rgb(189, 188, 188);
+}
+form button{
+    padding: 15px;
+    margin-top: 30px;
+    background-color: transparent;
+    font-size: 17px;
+    color: #e44239;
+    border: 1px solid #e44239;
+    width: 150px;
+    cursor: pointer;
+    transition: all 0.6s;
+    font-family: "Rufina", serif;
+}
+form button:hover{
+    background-color: #e44239;
+    color: white;
+}
+.content-data h3{
+    padding-bottom: 5px;
+}
+.contact-forn-pag h1{
+    font-size: 40px;
+    margin-top: 40px;
+}
+  .mapouter {
+    display: table;
+    margin: 0 auto; 
+    padding-top: 50px; 
+  }
+  .mapouter {
+    display: table;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .gmap_canvas {
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+    width: 800px;
+    background: #fff;
+  }
+  .gmap_canvas iframe {
+    position: relative !important;
+    z-index: 2 !important;
+  }
+  .gmap_canvas a {
+    color: #fff !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 0 !important;
+  }
+  .mapouter {
+    width: 800px; /* Set the desired width */
+}
+.gmap_canvas iframe {
+    width: 100%; /* Make the iframe fill the container width */
+    height: 100%;
+    border: none;
+}

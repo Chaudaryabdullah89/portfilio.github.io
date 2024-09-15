@@ -1,0 +1,55 @@
+.about-main{
+    background-image: url(https://preview.colorlib.com/theme/personalportfolio/assets/img/hero/hero2.jpg);
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+.con{
+    max-width: 1300px;
+    padding: 130px;
+    padding-left: 12vw;
+}
+.content-inner h1{
+font-size:70px;
+}
+.pag a{
+    color: #e44239;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+    font-family: "Rubik", sans-serif;
+}
+.pag span{
+    font-size: 31px;
+    position: relative;
+    top: 5px;
+    color: #e44239;
+}
+.about-us-hero-sec{
+    display: flex;
+    max-width: 1300px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    align-items: center;
+    gap: 150px;
+    
+
+}
+.content-right-hero-sec h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #002d5b;
+    padding-bottom: 20px;
+}
+.content-right-hero-sec p{
+    padding-bottom: 40px;
+    line-height: 1.5;
+    font-size: 16px;
+
+}
+.content-right-hero-sec{
+    width: 500px;
+}
