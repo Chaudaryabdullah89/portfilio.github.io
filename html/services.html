@@ -247,7 +247,29 @@
     left: -13px;"></i></button>
         <script src="/Assests/java/scriptmian.js"></script>
         <!-- <script src="https://unpkg.com/locomotive-scroll"></script> -->
+    <script>
+document.addEventListener('DOMContentLoaded', () => {
+  const menuTrigger = document.getElementById('menu-trigger');
+  const sideMenu = document.getElementById('side-menu');
 
+
+  menuTrigger.addEventListener('click', (event) => {
+      event.stopPropagation();
+      menuTrigger.classList.toggle('active');
+      sideMenu.classList.toggle('active');
+  });
+
+
+  document.addEventListener('click', (event) => {
+      if (!sideMenu.contains(event.target) && !menuTrigger.contains(event.target)) {
+          if (sideMenu.classList.contains('active')) {
+              menuTrigger.classList.remove('active');
+              sideMenu.classList.remove('active');
+          }
+      }
+  });
+});
+        </script>
 </body>
 
 </html>
