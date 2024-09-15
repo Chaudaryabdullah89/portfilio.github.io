@@ -863,6 +863,7 @@ body{
 }
 h2{
     color:black;
+        padding-bottom: 51px;
 }
 .hero .container-for-hero h2{
     color: #e44239 ;
