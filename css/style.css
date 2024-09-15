@@ -862,5 +862,8 @@ body{
     transform: translateX(0);
 }
 h2{
-    color: #e44239;
+    color:black;
+}
+.hero .container-for-hero h2{
+    color: #e44239 ;
 }
