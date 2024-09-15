@@ -861,3 +861,6 @@ body{
 .side-menu.active {
     transform: translateX(0);
 }
+h2{
+    color: #e44239;
+}
