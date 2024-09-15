@@ -294,6 +294,9 @@ max-height: 350px;
 .info-con{
     padding-left: 30px;
 }
+    .container-for-hero h1{
+    font-size: 3rem;
+}
 }
 
 
