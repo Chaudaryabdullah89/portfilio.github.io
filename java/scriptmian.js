@@ -128,4 +128,24 @@ b4.addEventListener('click',()=>{{
 function email(){
   window.open('https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new')
 }
+document.addEventListener('DOMContentLoaded', () => {
+  const menuTrigger = document.getElementById('menu-trigger');
+  const sideMenu = document.getElementById('side-menu');
 
+
+  menuTrigger.addEventListener('click', (event) => {
+      event.stopPropagation();
+      menuTrigger.classList.toggle('active');
+      sideMenu.classList.toggle('active');
+  });
+
+
+  document.addEventListener('click', (event) => {
+      if (!sideMenu.contains(event.target) && !menuTrigger.contains(event.target)) {
+          if (sideMenu.classList.contains('active')) {
+              menuTrigger.classList.remove('active');
+              sideMenu.classList.remove('active');
+          }
+      }
+  });
+});
